@@ -1,0 +1,20 @@
+<h1>Searches</h1>
+
+<p>
+  <%= link_to 'New search', new_search_path, class: 'btn btn-success' %>
+</p>
+
+<% if @searches %>
+  <ul>
+  <% @searches.each do |search| %>
+    <li>
+      <span>
+        <%= search.query %>
+      </span>
+      <%= link_to 'View', search_path(search) %>
+    </li>
+  <% end %>
+  </ul>
+<% else %>
+    <span>No searches added.</span>
+<% end %>

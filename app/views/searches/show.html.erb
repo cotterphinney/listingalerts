@@ -1,0 +1,15 @@
+<h2><%= @search.name %></h2>
+
+<p>
+  Query: <%= @search.query %>
+</p>
+
+<p>Category: <%= @search.category %></p>
+
+<p>
+  <%= link_to 'Edit', edit_search_path(@search), class: 'btn btn-success' %>
+  <%= link_to 'Delete', search_path(@search),
+              class: 'btn btn-danger',
+              method: :delete,
+              data: { confirm: 'Delete search?' } %>
+</p>

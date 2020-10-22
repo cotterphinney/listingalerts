@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_added: 2020-10-18 13:09:35
+  ebay_id: 1
+  url: MyText
+  title: MyText
+  start_time: 2020-10-18 13:09:35
+  end_time: 2020-10-18 13:09:35
+  current_price: 9.99
+  price_last_updated: 2020-10-18 13:09:35
+  bin_available: false
+  bin_price: 9.99
+  thumbnail_url: MyText
+  alert_sent: false
+  selling_state: MyText
+
+two:
+  date_added: 2020-10-18 13:09:35
+  ebay_id: 1
+  url: MyText
+  title: MyText
+  start_time: 2020-10-18 13:09:35
+  end_time: 2020-10-18 13:09:35
+  current_price: 9.99
+  price_last_updated: 2020-10-18 13:09:35
+  bin_available: false
+  bin_price: 9.99
+  thumbnail_url: MyText
+  alert_sent: false
+  selling_state: MyText

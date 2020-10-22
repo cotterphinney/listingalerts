@@ -1,0 +1,20 @@
+<%= form_with model: @search, local: true do |form| %>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </p>
+
+  <p>
+    <%= form.label :query %><br>
+    <%= form.text_area :query, size: '60x3' %>
+  </p>
+
+  <p>
+    <%= form.label :category %><br>
+    <%= form.text_field :category %>
+  </p>
+
+  <p>
+    <%= form.submit class: 'btn btn-success' %>
+  </p>
+<% end %>
